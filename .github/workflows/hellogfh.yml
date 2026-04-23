@@ -6,5 +6,10 @@ jobs:
   saludo:
     runs-on: ubuntu-latest
     steps:
-      - name: HelloGFH
+      - name: Primer escenario
         run: echo "Hola, mundo, desde GFH"
+      - name: Segundo escenario
+        run: 
+          echo "Step 2. Segundo saludo"
+          echo "Step 3. tercer saludo"
+          
